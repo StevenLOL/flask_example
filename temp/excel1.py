@@ -2,9 +2,8 @@
 # @author:Eric Luo
 # @file:excel1.py
 # @time:2017/3/13 0013 9:59
-from flask.ext import excel
-
 from flask import Flask, request, jsonify
+from flask.ext import excel
 
 app = Flask(__name__)
 

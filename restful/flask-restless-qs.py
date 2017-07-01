@@ -3,8 +3,8 @@
 # @file:flaskadmin1.py
 # @time:2017/3/28 0028 15:43
 import flask
-import flask_sqlalchemy
 import flask_restless
+import flask_sqlalchemy
 
 # Create the Flask application and the Flask-SQLAlchemy object.
 app = flask.Flask(__name__)

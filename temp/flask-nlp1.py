@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 from flask import Flask, url_for, jsonify
 app = Flask(__name__)
-import nltk, re, timex, json, sys
+import nltk, timex, json
+
 
 @app.route('/')
 def api_root():

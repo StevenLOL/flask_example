@@ -6,9 +6,8 @@ database_example_formatted.py
 from datetime import datetime
 
 import flask_excel as excel
-from flask_sqlalchemy import SQLAlchemy
-
 from flask import Flask, request, jsonify
+from flask_sqlalchemy import SQLAlchemy
 
 # please uncomment the following line if you use pyexcel < 0.2.2
 # import pyexcel.ext.xls
